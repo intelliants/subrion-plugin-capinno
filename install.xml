@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<plugin name="capinno">
+	<title>Capinno</title>
+	<summary>Capinno functionality on pages with forms.</summary>
+	<author>Intelliants LLC</author>
+	<contributor>Intelliants LLC</contributor>
+	<version>3.2.1</version>
+	<date>2015-02-04</date>
+	<category>captchas</category>
+	<compatibility>3.2.6</compatibility>
+
+	<config group="miscellaneous" name="capinno_plugin" type="divider" description="Capinno">Capinno</config>
+	<config group="miscellaneous" name="capinno_publickey" description="Capinno public key" type="text"><![CDATA[QqIn4DmiSbNu99CAVgxV]]></config>
+	<config group="miscellaneous" name="capinno_privatekey" description="Capinno private key" type="text"><![CDATA[Eqpk8gQS1xlSY3f2HClA]]></config>
+	<config group="miscellaneous" name="capinno_theme" description="Capinno theme" type="select" values="clean,white,darkgray">white</config>
+
+	<phrases>
+		<phrase category="common" key="capinno_set_configuration">To use Capinno you must get an API key from https://www.capinno.ru</phrase>
+	</phrases>
+</plugin>
